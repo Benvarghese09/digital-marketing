@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project - Student Name</title>
+    <link rel="stylesheet" href="styles/inner.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img id="img" src="images/logos.jpg" alt="logo"
+        /></a>
+        <strong style="display: flex; align-items: center; padding-right: 140px"
+          >Project - Student Name - Student email</strong
+        >
+        <div></div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <div class="nav-item">
+        <a href="#">Link1</a>
+        <div class="dropdown">
+          <a href="inner.html#text-video">Video</a>
+          <a href="inner.html#table-section">Table</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">Link2</a>
+        <div class="dropdown">
+          <a href="inner.html#text-video">Video</a>
+          <a href="inner.html#table-section">Table</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">Link3</a>
+        <div class="dropdown">
+          <a href="inner.html#text-video">Video</a>
+          <a href="inner.html#table-section">Table</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">Link4</a>
+        <div class="dropdown">
+          <a href="inner.html#text-video">Video</a>
+          <a href="inner.html#table-section">Table</a>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-inner">
+      <div class="hero-content">
+        <h1
+          style="
+            position: absolute;
+            margin-top: 180px;
+            text-align: center;
+            width: 100%;
+          "
+        >
+          Digital Marketing
+        </h1>
+        <img
+          src="images/digital44.jpg"
+          alt="digital"
+          style="display: flex; justify-content: center; align-items: center"
+        />
+      </div>
+    </section>
+    <section class="text-video" id="text-video">
+      <div class="text">
+        <h2>Social Media Marketing</h2>
+        <p>This is a overview about social media marketing</p>
+        <p>
+          This technology is very helpful in enriching the performance of a
+          product in the market
+        </p>
+      </div>
+      <div class="video">
+        <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/nU-IIXBWlS4?autoplay=1&maute=1"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section class="table-section" id="table-section">
+      <h2>Accessible table below with some data.</h2>
+      <table>
+        <caption>
+          Hockey Player Season Stats (Source: NHL.com)
+        </caption>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Games</th>
+            <th>Goals</th>
+            <th>Assists</th>
+            <th>Penalties</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2020</td>
+            <td>82</td>
+            <td>35</td>
+            <td>48</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>78</td>
+            <td>30</td>
+            <td>52</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>80</td>
+            <td>40</td>
+            <td>60</td>
+            <td>8</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="form-section">
+      <h2 style="text-align: center">
+        Unlock exclusive offers and updates—fill out the form below to join our
+        community!
+      </h2>
+      <br />
+      <br />
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" name="dropdown">
+          <optgroup label="Group 1">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option>Option 4</option>
+            <option>Option 5</option>
+            <option>Option 6</option>
+          </optgroup>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <fieldset>
+          <legend>Select your interests:</legend>
+          <label
+            ><input type="checkbox" name="interests" value="sports" />
+            Sports</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="music" />
+            Music</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="coding" />
+            Coding</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Choose one:</legend>
+          <label><input type="radio" name="choice" value="yes" /> Yes</label>
+          <label><input type="radio" name="choice" value="no" /> No</label>
+        </fieldset>
+        <div class="form-buttons">
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <div class="footer-menus">
+      <ul>
+        <a href="demo.html">
+          <li>Home</li>
+        </a>
+        <a href="demo.html">
+          <li>Contact</li>
+        </a>
+        <a href="demo.html">
+          <li>Address</li>
+        </a>
+      </ul>
+      <ul>
+        <a href="demo.html">
+          <li>Phone</li>
+        </a>
+        <a href="demo.html">
+          <li>Services</li>
+        </a>
+        <a href="demo.html">
+          <li>Products</li>
+        </a>
+      </ul>
+      <ul>
+        <a href="demo.html">
+          <li>Help</li>
+        </a>
+        <a href="demo.html">
+          <li>Enquiries</li>
+        </a>
+        <a href="demo.html">
+          <li>Alert</li>
+        </a>
+      </ul>
+    </div>
+    <footer class="copyright">
+      &copy; Copyright - Student Name - Student email
+    </footer>
+  </body>
+</html>
